@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8091699D2176A9F100E0AF59 /* DCChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8091699C2176A9F100E0AF59 /* DCChatViewController.swift */; };
+		809169AF2177FC0300E0AF59 /* DCMorseCodeSoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809169AE2177FC0300E0AF59 /* DCMorseCodeSoundPlayer.swift */; };
+		809169B5217803CD00E0AF59 /* dash_01.wav in Resources */ = {isa = PBXBuildFile; fileRef = 809169B1217803CC00E0AF59 /* dash_01.wav */; };
+		809169B6217803CD00E0AF59 /* dash_02.wav in Resources */ = {isa = PBXBuildFile; fileRef = 809169B2217803CC00E0AF59 /* dash_02.wav */; };
+		809169B7217803CD00E0AF59 /* dot_01.wav in Resources */ = {isa = PBXBuildFile; fileRef = 809169B3217803CC00E0AF59 /* dot_01.wav */; };
+		809169B8217803CD00E0AF59 /* dot_02.wav in Resources */ = {isa = PBXBuildFile; fileRef = 809169B4217803CC00E0AF59 /* dot_02.wav */; };
+		809169BA217803F500E0AF59 /* DCAppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809169B9217803F500E0AF59 /* DCAppSettings.swift */; };
+		80ABA94B21756A94009366E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ABA94A21756A94009366E5 /* AppDelegate.swift */; };
+		80ABA95021756A94009366E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80ABA94E21756A94009366E5 /* Main.storyboard */; };
+		80ABA95221756AA1009366E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80ABA95121756AA1009366E5 /* Assets.xcassets */; };
+		80ABA95521756AA1009366E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80ABA95321756AA1009366E5 /* LaunchScreen.storyboard */; };
+		80ABA96121758A0F009366E5 /* DCMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ABA96021758A0F009366E5 /* DCMenuViewController.swift */; };
+		80ABA96E217599AF009366E5 /* DCMorseCodeBLECentral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ABA96D217599AF009366E5 /* DCMorseCodeBLECentral.swift */; };
+		80ABA97021763DF5009366E5 /* DCMorseCodeBLEPeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ABA96F21763DF5009366E5 /* DCMorseCodeBLEPeripheral.swift */; };
+		80ABA972217644F3009366E5 /* DCMorseCodeBLEConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ABA971217644F3009366E5 /* DCMorseCodeBLEConstant.swift */; };
+		80ABA97421764963009366E5 /* DCClientListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ABA97321764963009366E5 /* DCClientListViewController.swift */; };
+		80ABA97821765095009366E5 /* DCClientSetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ABA97721765095009366E5 /* DCClientSetupViewController.swift */; };
+		A98F8DC3AA96B1DFBEBAE354 /* Pods_MorseCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7462304DDA664F6140AE473 /* Pods_MorseCode.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8091699C2176A9F100E0AF59 /* DCChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCChatViewController.swift; sourceTree = "<group>"; };
+		809169AE2177FC0300E0AF59 /* DCMorseCodeSoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCMorseCodeSoundPlayer.swift; sourceTree = "<group>"; };
+		809169B1217803CC00E0AF59 /* dash_01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dash_01.wav; sourceTree = "<group>"; };
+		809169B2217803CC00E0AF59 /* dash_02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dash_02.wav; sourceTree = "<group>"; };
+		809169B3217803CC00E0AF59 /* dot_01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dot_01.wav; sourceTree = "<group>"; };
+		809169B4217803CC00E0AF59 /* dot_02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dot_02.wav; sourceTree = "<group>"; };
+		809169B9217803F500E0AF59 /* DCAppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCAppSettings.swift; sourceTree = "<group>"; };
+		80ABA94721756A94009366E5 /* MorseBlue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorseBlue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80ABA94A21756A94009366E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80ABA94F21756A94009366E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80ABA95121756AA1009366E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80ABA95421756AA1009366E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80ABA95621756AA1009366E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80ABA96021758A0F009366E5 /* DCMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCMenuViewController.swift; sourceTree = "<group>"; };
+		80ABA96D217599AF009366E5 /* DCMorseCodeBLECentral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCMorseCodeBLECentral.swift; sourceTree = "<group>"; };
+		80ABA96F21763DF5009366E5 /* DCMorseCodeBLEPeripheral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCMorseCodeBLEPeripheral.swift; sourceTree = "<group>"; };
+		80ABA971217644F3009366E5 /* DCMorseCodeBLEConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCMorseCodeBLEConstant.swift; sourceTree = "<group>"; };
+		80ABA97321764963009366E5 /* DCClientListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCClientListViewController.swift; sourceTree = "<group>"; };
+		80ABA97721765095009366E5 /* DCClientSetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCClientSetupViewController.swift; sourceTree = "<group>"; };
+		8B4C0B0787CBE1A0D01382C1 /* Pods-MorseCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MorseCode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MorseCode/Pods-MorseCode.debug.xcconfig"; sourceTree = "<group>"; };
+		B5CECEDB064EAA57D05AEDA9 /* Pods-MorseCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MorseCode.release.xcconfig"; path = "Pods/Target Support Files/Pods-MorseCode/Pods-MorseCode.release.xcconfig"; sourceTree = "<group>"; };
+		F7462304DDA664F6140AE473 /* Pods_MorseCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MorseCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80ABA94421756A94009366E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A98F8DC3AA96B1DFBEBAE354 /* Pods_MorseCode.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2593E64603AA80CC91484415 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B4C0B0787CBE1A0D01382C1 /* Pods-MorseCode.debug.xcconfig */,
+				B5CECEDB064EAA57D05AEDA9 /* Pods-MorseCode.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		809169B0217803CC00E0AF59 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				809169B1217803CC00E0AF59 /* dash_01.wav */,
+				809169B2217803CC00E0AF59 /* dash_02.wav */,
+				809169B3217803CC00E0AF59 /* dot_01.wav */,
+				809169B4217803CC00E0AF59 /* dot_02.wav */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		80ABA93E21756A94009366E5 = {
+			isa = PBXGroup;
+			children = (
+				80ABA94921756A94009366E5 /* MorseCode */,
+				80ABA94821756A94009366E5 /* Products */,
+				2593E64603AA80CC91484415 /* Pods */,
+				D485D477C0F11D5A6B5BEA30 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		80ABA94821756A94009366E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80ABA94721756A94009366E5 /* MorseBlue.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80ABA94921756A94009366E5 /* MorseCode */ = {
+			isa = PBXGroup;
+			children = (
+				80ABA95D217573F5009366E5 /* Engine */,
+				80ABA95C217573F5009366E5 /* Interface */,
+				80ABA94A21756A94009366E5 /* AppDelegate.swift */,
+				80ABA94E21756A94009366E5 /* Main.storyboard */,
+				80ABA95121756AA1009366E5 /* Assets.xcassets */,
+				80ABA95321756AA1009366E5 /* LaunchScreen.storyboard */,
+				80ABA95621756AA1009366E5 /* Info.plist */,
+			);
+			path = MorseCode;
+			sourceTree = "<group>";
+		};
+		80ABA95C217573F5009366E5 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				80ABA96021758A0F009366E5 /* DCMenuViewController.swift */,
+				80ABA97321764963009366E5 /* DCClientListViewController.swift */,
+				80ABA97721765095009366E5 /* DCClientSetupViewController.swift */,
+				8091699C2176A9F100E0AF59 /* DCChatViewController.swift */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		80ABA95D217573F5009366E5 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				809169B0217803CC00E0AF59 /* Resources */,
+				80ABA96D217599AF009366E5 /* DCMorseCodeBLECentral.swift */,
+				80ABA96F21763DF5009366E5 /* DCMorseCodeBLEPeripheral.swift */,
+				80ABA971217644F3009366E5 /* DCMorseCodeBLEConstant.swift */,
+				809169B9217803F500E0AF59 /* DCAppSettings.swift */,
+				809169AE2177FC0300E0AF59 /* DCMorseCodeSoundPlayer.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		D485D477C0F11D5A6B5BEA30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7462304DDA664F6140AE473 /* Pods_MorseCode.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80ABA94621756A94009366E5 /* MorseCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80ABA95921756AA1009366E5 /* Build configuration list for PBXNativeTarget "MorseCode" */;
+			buildPhases = (
+				27C8988072A226AB207025B1 /* [CP] Check Pods Manifest.lock */,
+				80ABA94321756A94009366E5 /* Sources */,
+				80ABA94421756A94009366E5 /* Frameworks */,
+				80ABA94521756A94009366E5 /* Resources */,
+				88EBD4F098CA02DE6DD436AB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MorseCode;
+			productName = MorseCode;
+			productReference = 80ABA94721756A94009366E5 /* MorseBlue.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80ABA93F21756A94009366E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = SwiftDeveloper;
+				TargetAttributes = {
+					80ABA94621756A94009366E5 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 80ABA94221756A94009366E5 /* Build configuration list for PBXProject "MorseCode" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80ABA93E21756A94009366E5;
+			productRefGroup = 80ABA94821756A94009366E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80ABA94621756A94009366E5 /* MorseCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80ABA94521756A94009366E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80ABA95521756AA1009366E5 /* LaunchScreen.storyboard in Resources */,
+				809169B7217803CD00E0AF59 /* dot_01.wav in Resources */,
+				809169B6217803CD00E0AF59 /* dash_02.wav in Resources */,
+				809169B8217803CD00E0AF59 /* dot_02.wav in Resources */,
+				80ABA95221756AA1009366E5 /* Assets.xcassets in Resources */,
+				80ABA95021756A94009366E5 /* Main.storyboard in Resources */,
+				809169B5217803CD00E0AF59 /* dash_01.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27C8988072A226AB207025B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MorseCode-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88EBD4F098CA02DE6DD436AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MorseCode/Pods-MorseCode-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BluetoothKit/BluetoothKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BluetoothKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MorseCode/Pods-MorseCode-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80ABA94321756A94009366E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80ABA97421764963009366E5 /* DCClientListViewController.swift in Sources */,
+				809169AF2177FC0300E0AF59 /* DCMorseCodeSoundPlayer.swift in Sources */,
+				80ABA96121758A0F009366E5 /* DCMenuViewController.swift in Sources */,
+				8091699D2176A9F100E0AF59 /* DCChatViewController.swift in Sources */,
+				80ABA97021763DF5009366E5 /* DCMorseCodeBLEPeripheral.swift in Sources */,
+				809169BA217803F500E0AF59 /* DCAppSettings.swift in Sources */,
+				80ABA972217644F3009366E5 /* DCMorseCodeBLEConstant.swift in Sources */,
+				80ABA96E217599AF009366E5 /* DCMorseCodeBLECentral.swift in Sources */,
+				80ABA94B21756A94009366E5 /* AppDelegate.swift in Sources */,
+				80ABA97821765095009366E5 /* DCClientSetupViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		80ABA94E21756A94009366E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80ABA94F21756A94009366E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80ABA95321756AA1009366E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80ABA95421756AA1009366E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80ABA95721756AA1009366E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80ABA95821756AA1009366E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80ABA95A21756AA1009366E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B4C0B0787CBE1A0D01382C1 /* Pods-MorseCode.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 997DW79YCR;
+				INFOPLIST_FILE = MorseCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oncallitall.morseblue;
+				PRODUCT_NAME = MorseBlue;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80ABA95B21756AA1009366E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5CECEDB064EAA57D05AEDA9 /* Pods-MorseCode.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 997DW79YCR;
+				INFOPLIST_FILE = MorseCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oncallitall.morseblue;
+				PRODUCT_NAME = MorseBlue;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80ABA94221756A94009366E5 /* Build configuration list for PBXProject "MorseCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80ABA95721756AA1009366E5 /* Debug */,
+				80ABA95821756AA1009366E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80ABA95921756AA1009366E5 /* Build configuration list for PBXNativeTarget "MorseCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80ABA95A21756AA1009366E5 /* Debug */,
+				80ABA95B21756AA1009366E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80ABA93F21756A94009366E5 /* Project object */;
+}

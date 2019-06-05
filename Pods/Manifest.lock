@@ -1,0 +1,24 @@
+PODS:
+  - BluetoothKit (0.4.0)
+  - SnapKit (4.0.1)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - BluetoothKit
+  - SnapKit
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BluetoothKit
+    - SnapKit
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  BluetoothKit: 00e189e01ba765e2689c46fbd8d0ede62984441b
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: a0bf05bfbe5858576490fa49a31990889ca35b86
+
+COCOAPODS: 1.5.3
